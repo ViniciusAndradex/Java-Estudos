@@ -1,8 +1,8 @@
-package triangulo;
+import triangulo.Triangle;
 
 import java.util.Locale;
 
-public class Main {
+public class MainTriangle {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Triangle x = new Triangle();
