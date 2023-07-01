@@ -9,9 +9,14 @@ public class For {
         float fim = sc.nextInt();
 
         for (int inicio = 0; inicio <= fim; inicio++) {
-            System.out.printf("Somando: %d + %.2f = %.2f%n", inicio, (float) inicio, Float.sum(inicio, fim));
+            System.out.printf("Somando: %d + %.2f = %.2f%n", inicio, fim, sum(inicio, fim));
         }
 
         sc.close();
     }
+
+    public static float sum(int x, float w){
+        return  (float) x + w;
+    }
+
 }
