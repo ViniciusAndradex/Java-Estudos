@@ -4,6 +4,7 @@ public class Product {
     public String name;
     public double price;
     public int quantity;
+    public static final float PI = 3.14f;
 
     public double totalValueInStock(){
         return quantity * price;
@@ -23,6 +24,10 @@ public class Product {
                 ", $ " + String.format("%.2f", price) +
                 ", " + quantity +
                 " units, Total: $ " + ", $ " + String.format("%.2f", totalValueInStock());
+    }
+
+    public static void showResult(){
+        System.out.printf("PI: " + PI + "%n");
     }
 
 }

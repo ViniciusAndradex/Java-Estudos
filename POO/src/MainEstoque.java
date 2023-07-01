@@ -8,6 +8,7 @@ public class MainEstoque {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         Product x1 = new Product();
+        Product.showResult();
 
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
