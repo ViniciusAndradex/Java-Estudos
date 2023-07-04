@@ -21,6 +21,8 @@ public class Array {
 
         System.out.printf("Average height: %.2f%n", avgHeight(height));
 
+        sc.close();
+
     }
 
     public static double avgHeight(double[] height) {
