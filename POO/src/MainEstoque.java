@@ -7,16 +7,23 @@ public class MainEstoque {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        Product x1 = new Product();
+
         Product.showResult();
 
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
-        x1.name = sc.next();
+        String name = sc.next();
         System.out.print("Price: ");
-        x1.price = sc.nextDouble();
+        double price = sc.nextDouble();
         System.out.print("Quantity: ");
-        x1.quantity = sc.nextInt();
+        int quantity = sc.nextInt();
+        Product x1 = new Product(name, price, quantity);
+
+        name = sc.next();
+
+        x1.setName(name);
+
+        System.out.println("New name: " + x1.getName());
 
         System.out.printf("Product " + x1 + "%n");
 
