@@ -12,6 +12,12 @@ public class For {
             System.out.printf("Somando: %d + %.2f = %.2f%n", inicio, fim, sum(inicio, fim));
         }
 
+        String[] collection = new String[] {"Mario", "Maria"};
+
+        for (String x: collection) {
+            System.out.println(x);
+        }
+
         sc.close();
     }
 
