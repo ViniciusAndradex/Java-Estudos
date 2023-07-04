@@ -1,17 +1,31 @@
 package estoque;
 
 public class Product {
+    /*
+        Encapsulamento.
+     */
     private String name;
     private double price;
     private int quantity;
     public static final float PI = 3.14f;
 
+    /*
+        Construtor.
+    */
     public Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
 
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    /*
+        Métodos de acesso a dados encapsulados
+    * */
     public String getName() {
         return name;
     }
@@ -45,6 +59,17 @@ public class Product {
         this.quantity -= quantity;
     }
 
+    public static double avgProductsPrices(Product[] vect) {
+        double sum = 0f;
+        for (int ini = 0; ini < vect.length; ini++) {
+            sum += vect[ini].getPrice();
+        }
+        return sum / vect.length;
+    }
+
+    /*
+        Método de sobreposição para apresentação de objeto.
+    */
     @Override
     public String toString() {
         return "data: " + name +
