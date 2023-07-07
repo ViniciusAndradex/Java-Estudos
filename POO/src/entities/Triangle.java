@@ -1,4 +1,4 @@
-package triangulo;
+package entities;
 
 public class Triangle {
     public double a;

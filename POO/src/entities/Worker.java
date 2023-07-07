@@ -1,6 +1,6 @@
-package entitites_;
+package entities;
 
-import entities_.enums.WorkerLevel;
+import entities.enums.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -84,7 +84,7 @@ public class Worker {
 
     @Override
     public String toString() {
-        return "Worker{" +
+        return "entities.Worker{" +
                 "name='" + name + '\'' +
                 ", level=" + level +
                 ", baseSalary=" + baseSalary +

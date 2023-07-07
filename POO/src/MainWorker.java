@@ -1,7 +1,7 @@
-import entities_.enums.WorkerLevel;
-import entitites_.Department;
-import entitites_.HourContract;
-import entitites_.Worker;
+import entities.Department;
+import entities.HourContract;
+import entities.Worker;
+import entities.enums.WorkerLevel;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class MainWorker {
     public static void main(String[] args) throws ParseException {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class Main {
         System.out.print("Enter department's name: ");
         String department = sc.nextLine();
 
-        System.out.println("Enter Worker data:");
+        System.out.println("Enter entities.Worker data:");
         System.out.print("Name: ");
         String name = sc.nextLine();
         System.out.print("Level: ");
@@ -52,7 +52,7 @@ public class Main {
         int year = Integer.parseInt(monthAndYear.substring(3));
 
         System.out.println("Name: " + worker.getName());
-        System.out.println("Department: " + worker.getDepartment().getName());
+        System.out.println("entities.Department: " + worker.getDepartment().getName());
         System.out.println("Income for " + monthAndYear + ": " + worker.income(year, month));
 
         sc.close();

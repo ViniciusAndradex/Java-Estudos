@@ -1,4 +1,4 @@
-package estoque;
+package entities;
 
 public class Product {
     /*

@@ -1,4 +1,4 @@
-import triangulo.Triangle;
+import entities.Triangle;
 
 import java.util.Locale;
 
