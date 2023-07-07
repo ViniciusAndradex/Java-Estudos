@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Estudos.iml" filepath="$PROJECT_DIR$/.idea/Java-Estudos.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enum_composite/enum_composite.iml" filepath="$PROJECT_DIR$/enum_composite/enum_composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/estruturas_java/estruturas_java.iml" filepath="$PROJECT_DIR$/estruturas_java/estruturas_java.iml" />
     </modules>
   </component>
