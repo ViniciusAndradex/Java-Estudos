@@ -1,5 +1,3 @@
-package entities;
-
 import entities.enums.OrderStatus;
 import entities.Order;
 
