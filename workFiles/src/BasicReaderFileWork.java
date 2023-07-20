@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class BasicFileWork {
+public class BasicReaderFileWork {
     public static void main(String[] args) {
 
         File file = new File("workFiles/src/model/utils/in.txt");
