@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/estruturas_java/estruturas_java.iml" filepath="$PROJECT_DIR$/estruturas_java/estruturas_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptionPersonalizada/exceptionPersonalizada.iml" filepath="$PROJECT_DIR$/exceptionPersonalizada/exceptionPersonalizada.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workFiles/workFiles.iml" filepath="$PROJECT_DIR$/workFiles/workFiles.iml" />
     </modules>
   </component>
 </project>
